@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Program {
+public class VeryBadSolution {
 
 	public static void main(String[] args) throws ParseException {
 		Scanner entrada = new Scanner(System.in);
