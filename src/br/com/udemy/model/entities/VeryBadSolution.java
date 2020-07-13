@@ -22,8 +22,8 @@ public class VeryBadSolution {
 			System.out.println("Error in reservation: Check-out date must be after check-in date.");
 		}
 		else {
-			Reservation reservation = new Reservation(number, checkIn, checkOut);
-			System.out.println("Reservation: " + reservation);
+			ReservationOne reservationOne = new ReservationOne(number, checkIn, checkOut);
+			System.out.println("Reservation: " + reservationOne);
 			
 			System.out.println();
 			System.out.println("Enter data to update the reservation:");
@@ -40,8 +40,8 @@ public class VeryBadSolution {
 				System.out.println("Error in reservation: Check-out date must be after check-in date.");
 			}
 			else {
-				reservation.updateDates(checkIn, checkOut);
-				System.out.println("Reservation: " + reservation);
+				reservationOne.updateDates(checkIn, checkOut);
+				System.out.println("Reservation: " + reservationOne);
 			}
 			
 		}

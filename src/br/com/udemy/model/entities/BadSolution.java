@@ -22,7 +22,7 @@ public class BadSolution {
 			System.out.println("Error in reservation: Check-out date must be after check-in date.");
 		}
 		else {
-			Reservation reservation = new Reservation(number, checkIn, checkOut);
+			ReservationOne reservation = new ReservationOne(number, checkIn, checkOut);
 			System.out.println("Reservation: " + reservation);
 			
 			System.out.println();
